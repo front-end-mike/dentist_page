@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500&family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500&family=Sigmar&family=Vollkorn+SC:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+
+        
+        *{
+            font-family: 'Vollkorn SC', serif;
+        }
+
+     
+        li {
+            font-size: 15px;
+        }
+
+        .carousel-item>img{
+            height:auto;
+        }
+    
+        .karuzela{
+            height: 200px;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url(kaseton-stomatologia.jpg);
+            width: 80%;
+            margin: auto;
+            /* Set a specific height */
+            min-height: 400px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card>img{
+            max-width: 500px;
+            margin: auto;
+        }
+
+        nav{
+            opacity: 0.9;
+        }
+
+        #navbarmenu>ul>li>a{
+            font-family: 'Vollkorn SC', serif;
+        }
+
+       
+
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-secondary navbar-expand-md sticky-top opacity">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img width="120" height="90" src="logo.png" id="logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <!--menu-->
+        <div id="navbarmenu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-md-0">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link fs-4 me-3">Strona główna</a>
+                </li>
+                <li class="nav-item fs-4 me-3">
+                    <a href="usługi.html" class="nav-link">Usługi</a>
+                </li>
+                <li class="nav-item fs-4 me-3 ">
+                    <a href="o nas.html" class="nav-link">O nas</a>
+                </li>
+                <li class="nav-item fs-4 me-3">
+                    <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+            </ul>
+          
+        </div>
+
+    </div>
+</nav>
+<div class="h-20 text-white"><p>sscs</p></div>
+<div class="parallax"></div>
+<div class="container mt-3">
+    <div class="row align-items-center">
+        
+        <div class="col-md-12 p-3" >
+            <p class="h1 text-center mt-3 " style="line-height: 1.6;">Zapraszamy do nowo otwartego gabinetu stomatologicznego w Prószkowie k. Opola. Zapewniamy kompleksowe leczenie bez bólu w miłej atmosferze z użyciem nowoczesnego sprzętu.</p>
+            <p class="h1 text-center mt-5">
+                Anita Ilków
+            </p>
+            <p class="h1 text-center m-5 text-uppercase">
+                <em> telefon: 662 397 268</em>
+            </p>
+            <p class="h1 text-center m-5">
+                <em> e-mail:<br><br>stomatologia@awimed.com.pl</em>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="parallax"></div>
+<main class="container">
+
+    <!--pierwszy wiersz-->
+    <div class="row mt-3">
+        <div class="col-md-12 text-center p-5"><h1>Przykładowe usługi</h1></div>
+        <div class=" col-md-6 p-2">
+            <div class="card h-100">
+                <img src="s2.jpg" class="card-img-top p-4" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Badania i diagnostyka</h3>
+                    <ul class="card-text">
+                        <li class="fs-4">Regularne kontrole stomatologiczne.</li>
+                        <li class="fs-4">Przeglądy i ocena stanu jamy ustnej.</li>
+                        <li class="fs-4">Diagnostyka rentgenowska.</li>
+                    </ul>
+                    <a href="usługi.html#CHAPTER1" class="btn btn-outline-primary">Czytaj więcej</a>
+                </div>
+            </div>
+            
+        </div>
+        
+            
+        
+        <!--karta z d-none - wyświtla się dopiero porzomiarze md-->
+        <div class=" col-md-6 p-2">
+            <div class="card">
+                <img src="s1.jpg" class="card-img-top p-4" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Higienizacja jamy ustnej</h3>
+                    <ul class="card-text">
+                        <li class="fs-4">Profilaktyczne czyszczenie zębów i usuwanie kamienia nazębnego.</li>
+                        <li class="fs-4">Edukacja pacjenta w zakresie prawidłowej higieny jamy ustnej.</li>
+                       
+                    </ul>
+                    <a href="usługi.html#CHAPTER3" class="btn btn-outline-primary">Czytaj więcej</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    <!--drugi wiersz-->
+    <div class="row mt-5">
+        <div class="col-md-6 p-2">
+            <div class="card">
+                <img src="dentist-2530990_640.jpg" class="card-img-top p-4" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Estetyczna stomatologia</h3>
+                    <ul class="card-text">
+                        <li class="fs-4">Implanty zębowe</li>
+                        <li class="fs-4">Procedury wybielające mają na celu redukcję przebarwień i nadanie zębom jaśniejszego koloru.</li>
+                        
+                    </ul>
+                    <a href="usługi.html#CHAPTER6" class="btn btn-outline-primary">Czytaj więcej</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 p-2">
+            <div class="card  h-100">
+                <img src="zeb.jpg" class="card-img-top p-4" alt="">
+                <div class="card-body">
+                    <h3 class="card-title">Leczenie ubytków i odbudowa zębów:</h3>
+                    <ul class="card-text">
+                        <li class="fs-4">Plomby stomatologiczne.</li>
+                        <li class="fs-4">Korony i mosty protetyczne.</li>
+                        <li class="fs-4">Licówki.</li>
+                        
+                    </ul>
+                    <a href="usługi.html#CHAPTER2" class="btn btn-outline-primary">Czytaj więcej</a>
+                </div>
+             </div>
+            
+            
+        </div>
+            
+    </div>
+
+        
+            
+        
+
+        
+</main>
+<div class="parallax my-5"></div>
+<main>
+    <!--trzeci wiersz-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 p-2">
+                <div class="card h-100">
+                    <img src="dz.jpg" class="card-img-top p-4" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Chirurgia stomatologiczna:</h3>
+                        <ul class="card-text">
+                            <li class="fs-4">Usuwanie zębów, w tym zębów mądrości.</li>
+                            <li class="fs-4">Chirurgiczne zabiegi periodontologiczne.</li>
+                            
+                        </ul>
+                        <a href="usługi.html#CHAPTER4" class="btn btn-outline-primary">Czytaj więcej</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-2">
+                <div class="card h-100">
+                    <img src="sz.jpg" class="card-img-top p-4" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Protetyka:</h3>
+                        <ul class="card-text">
+                            <li class="fs-4">Protezy stomatologiczne.</li>
+                            <li class="fs-4">Nakładki i protezy tymczasowe.</li>
+                            
+                            
+                        </ul>
+                        <a href="usługi.html#CHAPTER5" class="btn btn-outline-primary">Czytaj więcej</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+    <!--stopka-->
+
+<footer id="footer" class="text-light bg-secondary my-5">
+    <div class="container pt-4">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 align-self-center">
+                <h5>AWIMED</h5>
+                <p>Usługi stomatologiczne w Prószkowie</p>
+
+                <h5>Telefon</h5>
+                <h5>662 397 268</h5>
+
+                <h5>E-mail</h5>
+                <h5><a class="text-light"href="mailto:admin@example.com">stomatologia@awimed.com.pl</a></h5>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h5>Szybkie linki</h5>
+                <ul class=>
+                    <li><a class="text-light text-decoration-underline" href="index.html">Strona główna</a></li>
+                    <li><a class="text-light text-decoration-underline" href="usługi.html">Usługi</a></li>
+                    <li><a class="text-light text-decoration-underline" href="o nas.html">O nas</a></li>
+                    <li><a class="text-light text-decoration-underline" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-5 align-self-center">
+                <h5>Dane kontaktowe</h5>
+                <p>
+                    
+                    <p>Rynek 11</p>
+                    <p>46-060 Prószkówa</p>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1791.486603469559!2d17.87035344693046!3d50.57982930424196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711adf33dd9f945%3A0x6b63bcea7bf4a30e!2sAwimed!5e0!3m2!1spl!2spl!4v1699641171399!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center p-4">
+                Copyright by Blog. All right
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
